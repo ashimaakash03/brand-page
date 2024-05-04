@@ -24,3 +24,8 @@ nav ul {
 nav ul li {
   margin: 0 20px;
 }
+
+.contact {
+  max-width: 600px;
+  margin-left: 150px;
+}
