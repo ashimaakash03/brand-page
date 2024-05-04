@@ -9,6 +9,7 @@ nav {
   justify-content: space-between;
   max-width: 600px;
   margin: 0 auto;
+  margin-left: 200px;
   max-height: 80px;
   align-items: center;
 }
@@ -29,10 +30,30 @@ button {
   width: 150px;
   background-color: orangered;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
-button:hover{
-    cursor: pointer;
-    opacity: 80%;
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+main {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main .hero-content {
+  max-width: 350px;
+  margin: 0;
+}
+
+main .hero-image {
+  max-width: 300px;
+  margin: 0;
+  padding: 0 20px;
+}
+button {
+  margin: 10px;
 }
