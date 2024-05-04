@@ -1,9 +1,5 @@
 const HeroSection = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div>Herosection</div>;
+};
 
-export default HeroSection
+export default HeroSection;
