@@ -1,5 +1,12 @@
+import "./App.css";
+import Navigation from "./components/Navigation";
+
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 };
 
 export default App;
