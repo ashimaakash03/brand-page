@@ -50,10 +50,16 @@ main .hero-content {
 }
 
 main .hero-image {
-  max-width: 300px;
+  max-width: 400px;
+  height: auto;
   margin: 0;
   padding: 0 20px;
 }
 button {
   margin: 10px;
+}
+
+p {
+  display: flex;
+  justify-content: space-around;
 }

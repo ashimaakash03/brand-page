@@ -10,11 +10,30 @@ const HeroSection = () => {
         </p>
         <div>
           <button>Shop Now</button>
-          <button id="category">Category</button>
         </div>
+        <p>
+          Also Available on:
+          <img
+            src="src/assets/flipkart-logo.png"
+            alt="flipkart"
+            height="30px"
+            width="30px"
+          />
+          <img
+            src="src/assets/amazon-logo.PNG"
+            alt="amazon"
+            height="30px"
+            width="30px"
+          />
+        </p>
       </div>
       <div className="hero-image">
-        <img src="src/assets/heroimage.jpg" alt="sneakers" height="auto" width="300px"/>
+        <img
+          src="src/assets/heroimage.jpg"
+          alt="sneakers"
+          height="auto"
+          width="300px"
+        />
       </div>
     </main>
   );
